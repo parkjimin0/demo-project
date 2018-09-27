@@ -6,7 +6,7 @@ import { Text, View } from 'react-native';
 import { View as GraphicsView } from 'expo-graphics';
 
 export default class LinkScreen extends React.Component {
-  static url = 'screens/AR/Basic.js';
+  static url = 'screens/LinkScreen.js';
   render() {
     return (
       <View style={{ flex: 1 }}>
@@ -58,3 +58,5 @@ export default class LinkScreen extends React.Component {
     this.renderer.render(this.scene, this.camera);
   };
 }
+
+
